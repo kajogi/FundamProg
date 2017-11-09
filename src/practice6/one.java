@@ -11,7 +11,7 @@ public class one {
     public static void main(String[] args) {
 
 
-//        showNumberOfLetterAinName(); // thrid exercise
+//        showNumberOfLetterAinName(); // third exercise
 //        printTenNames(); // first exercise
 //        asksTenNames(); // second exercise
 
@@ -28,31 +28,24 @@ public class one {
             String input = TextIO.getlnString();
             if (input.equals(""))
                 break;
-             else
+            else
                 names.add(input);
-            }
-            System.out.println(names);
+        }
+        System.out.println(names);
 
-        for (String name: names
-             ) {
+        for (String name : names
+                ) {
             int letterCount = 0;
 
-            for (int i = 0; i <  name.length(); i++) {
+            for (int i = 0; i < name.length(); i++) {
 
-                if(name.charAt(i) == 'a' || name.charAt(i) == 'A')
+                if (name.charAt(i) == 'a' || name.charAt(i) == 'A')
                     letterCount++;
             }
             System.out.println(letterCount + " " + name);
         }
 
-
-
-
-
-        }
-
-
-
+    }
 
 
     private static void asksTenNames() {
