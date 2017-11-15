@@ -18,6 +18,7 @@ public class one {
 
     }
 
+
     private static void showNumberOfLetterAinName() {
 
         ArrayList<String> names = new ArrayList<>();
@@ -33,8 +34,7 @@ public class one {
         }
         System.out.println(names);
 
-        for (String name : names
-                ) {
+        for (String name : names) {
             int letterCount = 0;
 
             for (int i = 0; i < name.length(); i++) {
